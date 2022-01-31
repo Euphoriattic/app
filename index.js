@@ -33,7 +33,7 @@ import './index.css';
 }
 */
 
-function Square(props) {
+/*function Square(props) {
   return (
     <button className="square" onClick={props.onClick}>
       {props.value}
@@ -57,7 +57,7 @@ class Board extends React.Component {
       squares: Array(9).fill(null),
       xIsNext: true,
     };
-  } */
+  } 
 
 
   renderSquare(i) {
@@ -103,7 +103,7 @@ class Game extends React.Component {
    * data directly. This allows past states of data to be accessed and makes it easier to know when a
    * certain state has been modified and the page needs to be updated.
    *   
-   */
+   *
 
   constructor(props) {
     super(props);
@@ -209,6 +209,4 @@ function calculateWinner(squares) {
 ReactDOM.render(
   <Game />,
   document.getElementById('root')
-);
-
-  
+); */
